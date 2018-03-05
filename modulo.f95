@@ -26,6 +26,7 @@ subroutine producto(A,B,AxB,info)
     real, intent(out)       :: AxB(:,:)
     integer, intent(out)    :: info     !info=  0 -> OK
                                         !info= -1 -> Error
+    Real(8)                 :: culo
 
     !Variables locales
     integer     :: N,M
